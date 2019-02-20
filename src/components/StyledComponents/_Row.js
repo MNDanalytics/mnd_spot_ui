@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const BtnAdd = styled.button`
-    padding: 0.65rem .9rem;
+    padding: 0.40rem .7rem;
     color: white;
     font-size: 18px;
     background-color: ${props => props.disabled ? 'rgba(89,94,101,0.2)' : '#007bff'};
@@ -51,25 +51,27 @@ const BtnDelTask = styled.span`
     }
 `
 
-const Task = styled.label`
+const Task = styled.div`
     height: 80%;
-    min-height: 30px;
+    min-height: 24px;
     width: 10%;
     background-color: #4150bd;
-    margin: 0 0 0 10px;
+    margin: 0 0 0 5px;
     border-radius: 3px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: whitesmoke;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
     transition: all .2s ease-in-out;
     position: relative;
     opacity: 1;
     transform: scale(1);
-    max-width: 80px;
+    max-width: 65px;
     animation: showTask .4s;
+    z-index: 1;
+    cursor: pointer;
     &:hover{
         background-color: #5767dc;
     }
@@ -93,7 +95,7 @@ const BlockTasks = styled.div`
     display: flex;
     align-items: center;
     height: 60%;
-    min-height: 40px;
+    min-height: 30px;
     min-width: 300px;
     width: 85%;
     background: ${props => props.active ? 'rgba(89,94,101,0.2)' : 'white'};
@@ -175,9 +177,9 @@ const BlockRow = styled.div`
     background: #e9eaec;
     display: flex;
     align-items: center;
-    min-height: 70px;
+    min-height: 50px;
     height: auto;
-    margin-top: 20px; 
+    margin-top: 10px; 
     border-radius: 2px;
     box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42), 
                 0 4px 25px 5px rgba(0, 0, 0, 0.12),
@@ -199,5 +201,5 @@ export {
     Task, 
     BtnDelTask,
     BtnAdd,
-    Label
+    Label,
 }

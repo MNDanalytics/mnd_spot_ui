@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const BlockUp = styled.header`
     width: 100%;
-    height: 100px;
+    height: 70px;
     min-height: 80px;
     position: relative;
     background-color: #000;
@@ -23,12 +23,12 @@ const BlockImg = styled.div`
 
 const Logo = styled.img.attrs({alt: 'logo_mnd'})`
     animation: showLogo 1.4s;
-
+    transform: scale(.8);
     @keyframes showLogo{
         from{
             transform: scale(0.5) rotate(0);
         } to{
-            transform: scale(1) rotate(360deg);
+            transform: scale(.8) rotate(360deg);
         }
     } 
 `

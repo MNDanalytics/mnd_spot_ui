@@ -166,6 +166,17 @@ const RowModal = styled.div`
     font-size: 18px;
     font-weight: 700;
     align-items: center;
+    opacity: 1;
+    animation: showRowModal .3s;
+    @keyframes showRowModal {
+        from {
+            opacity: 0;
+            transform: scale(0)
+        } to {
+            opacity: 1;
+            transform: scale(1)
+        }
+    }
 `
 
 const ModalData = styled.div`
@@ -224,7 +235,8 @@ const BodyModal = styled.div`
     position: absolute;
     transform: scale(1);
     width: 65%;
-    height: 90vh;
+    height: auto;
+    padding: 20px;
     overflow: auto;
     background: white;
     border-radius: 5px;

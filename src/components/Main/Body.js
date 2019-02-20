@@ -1,8 +1,6 @@
 import React from 'react';
 
 import {
-    Title,
-    BlockTitle,
     BlockWrapper,
     InsideBlock
 } from '../StyledComponents/_Body';
@@ -10,9 +8,6 @@ import {
 const Wrapper = ({ children }) => {
     return(
         <BlockWrapper>
-            <BlockTitle>
-                <Title>Regulation energy trading hours</Title>
-            </BlockTitle>
             <InsideBlock>
                 { children }
             </InsideBlock>
