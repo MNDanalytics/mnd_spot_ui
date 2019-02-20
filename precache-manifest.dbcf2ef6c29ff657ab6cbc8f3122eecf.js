@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a2800304a15a1d3b0a42",
+    "revision": "71a240aef32ad8e027f9",
     "url": "/mnd_spot_ui/static/css/main.10486eea.chunk.css"
   },
   {
-    "revision": "a2800304a15a1d3b0a42",
-    "url": "/mnd_spot_ui/static/js/main.a2800304.chunk.js"
+    "revision": "71a240aef32ad8e027f9",
+    "url": "/mnd_spot_ui/static/js/main.71a240ae.chunk.js"
   },
   {
     "revision": "fd78a84eeed07dc8cba6",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/mnd_spot_ui/static/media/MND.cz.a8509754.svg"
   },
   {
-    "revision": "abe9eea94e0ebce7f61360a716f427fc",
+    "revision": "461e9a98beb78a7b0fcbe63b9f539c33",
     "url": "/mnd_spot_ui/index.html"
   }
 ];

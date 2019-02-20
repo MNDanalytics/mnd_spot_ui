@@ -1,7 +1,7 @@
 {
   "main.css": "/mnd_spot_ui/static/css/main.10486eea.chunk.css",
-  "main.js": "/mnd_spot_ui/static/js/main.a2800304.chunk.js",
-  "main.js.map": "/mnd_spot_ui/static/js/main.a2800304.chunk.js.map",
+  "main.js": "/mnd_spot_ui/static/js/main.71a240ae.chunk.js",
+  "main.js.map": "/mnd_spot_ui/static/js/main.71a240ae.chunk.js.map",
   "static/js/1.fd78a84e.chunk.js": "/mnd_spot_ui/static/js/1.fd78a84e.chunk.js",
   "static/js/1.fd78a84e.chunk.js.map": "/mnd_spot_ui/static/js/1.fd78a84e.chunk.js.map",
   "runtime~main.js": "/mnd_spot_ui/static/js/runtime~main.1524b7ea.js",
@@ -9,6 +9,6 @@
   "static/media/MND.cz.svg": "/mnd_spot_ui/static/media/MND.cz.a8509754.svg",
   "static/css/main.10486eea.chunk.css.map": "/mnd_spot_ui/static/css/main.10486eea.chunk.css.map",
   "index.html": "/mnd_spot_ui/index.html",
-  "precache-manifest.ddfcf867128963e35fb41c55d20c1e4c.js": "/mnd_spot_ui/precache-manifest.ddfcf867128963e35fb41c55d20c1e4c.js",
+  "precache-manifest.dbcf2ef6c29ff657ab6cbc8f3122eecf.js": "/mnd_spot_ui/precache-manifest.dbcf2ef6c29ff657ab6cbc8f3122eecf.js",
   "service-worker.js": "/mnd_spot_ui/service-worker.js"
 }
